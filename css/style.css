@@ -96,7 +96,7 @@ textarea {
     color: #fff; }
     .heading-sec__main--lt::after {
       content: '';
-      background: #fff !important; }
+      background: rgb(0, 0, 0) !important; }
   .heading-sec__main::after {
     content: '';
     position: absolute;
@@ -124,7 +124,7 @@ textarea {
     .heading-sec__sub {
       font-size: 1.8rem; } }
   .heading-sec__sub--lt {
-    color: #eee; }
+    color: rgb(255, 251, 251); }
 
 .heading-sm {
   font-size: 2.2rem;
@@ -137,8 +137,8 @@ textarea {
   width: 92%; }
 
 .btn {
-  background: #fff;
-  color: #333;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   text-transform: uppercase;
   letter-spacing: 2px;
   display: inline-block;
@@ -184,7 +184,7 @@ textarea {
   display: none; }
 
 .home-hero {
-  color: #fff;
+  color: rgb(255, 255, 255);
   background: linear-gradient(to right, rgba(14, 0, 214, 0.8), rgba(14, 0, 214, 0.8)), url(../../assets/svg/common-bg.svg);
   background-position: center;
   height: 100vh;
